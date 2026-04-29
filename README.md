@@ -24,6 +24,7 @@ Each question is stored in a separate `.md` file for easy navigation and learnin
 | No. | Topic | Link |
 |-----|------|------|
 | Q1 | ArgoCD Installation using Helm (Without CRDs) | [View](./Question-1.md) |
+| Q2 | Sidecar Container with Shared Volume | [View](./Question-2.md) |
 
 *(More questions will be added regularly 🚀)*
 
