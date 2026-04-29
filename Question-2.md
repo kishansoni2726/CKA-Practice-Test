@@ -12,8 +12,8 @@ Update the existing deployment `wordpress`, adding a sidecar container named `si
 
 - Sidecar should run:
 
-```/bin/bash -c "tail -f /var/log/wordpress.log"
-```
+`/bin/bash -c "tail -f /var/log/wordpress.log"`
+
 Use a shared volume mounted at /var/log
 Ensure log file wordpress.log is accessible to both containers
 ✅ Answer
