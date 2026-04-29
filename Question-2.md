@@ -15,9 +15,12 @@ Update the existing deployment `wordpress`, adding a sidecar container named `si
 `/bin/bash -c "tail -f /var/log/wordpress.log"`
 
 Use a shared volume mounted at /var/log
+
 Ensure log file wordpress.log is accessible to both containers
+
 ✅ Answer
-🔹 Solution 1: Basic Sidecar Concept (Pod YAML)
+
+# 🔹 Solution 1: Basic Sidecar Concept (Pod YAML)
 
 This demonstrates how a sidecar container works using a standalone Pod.
 
