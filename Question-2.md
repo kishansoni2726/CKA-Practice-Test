@@ -18,7 +18,7 @@ Use a shared volume mounted at /var/log
 
 Ensure log file wordpress.log is accessible to both containers
 
-✅ Answer
+---
 
 # 🔹 Solution 1: Basic Sidecar Concept (Pod YAML)
 
